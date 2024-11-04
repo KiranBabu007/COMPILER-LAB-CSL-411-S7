@@ -79,10 +79,7 @@ This repository contains a collection of programs for the **Compiler Lab** cours
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Install **GCC** or another compatible C compiler.
 - Install **Lex** and **Yacc** tools.
 
 ### How to Run
