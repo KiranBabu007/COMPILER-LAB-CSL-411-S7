@@ -86,3 +86,6 @@ This repository contains a collection of programs for the **Compiler Lab** cours
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/KTU-Compiler-Lab-Programs.git
+2.Navigate to the desired program directory.
+3.Compile and run the program using appropriate commands.
+
