@@ -8,9 +8,19 @@ int cac(FILE*f,char state,char result[20][3]){
 
     while(fcanf(f,"%s %s %s",state1,input,state2)!=EOF){
         if(strcmp(state1,state)==0 && strcmp(input,"e")==0){
-            
+            strcpy(result[count],state2);
+            strcpy(state,state2);
+            count++;
         }
 
+    }
+    return count;
+}
+
+void display(char state,char result[20][3],int count){
+    printf("The Closure of state %s is:",state);
+    for(int i=0;i<count;i++){
+        printf("%s ",result[i]);
     }
 }
 
