@@ -2,13 +2,14 @@
 #include<string.h>
 
 int calc(FILE*f,char state[],char result[20][3]){
-    char state1[3],input[3],state2[3];
+    char initial[3],state1[3],input[3],state2[3];
     int count=1;
+    strcpy(initial,state);
     strcpy(result[0],state);
     while(fscanf(f,"%s %s %s",state1,input,state2)!=EOF){
-        if(strcmp(state1,state)==0 && strcmp(input,"e")==0){
+        if(strcmp(state1,initial)==0 && strcmp(input,"e")==0){
             strcpy(result[count],state2);
-            strcpy(state,state2);
+            strcpy(initial,state2);
             count++;
         }
     }
@@ -16,7 +17,7 @@ int calc(FILE*f,char state[],char result[20][3]){
 }
 
 void display(char state[],char result[20][3],int count){
-    printf("The Closure of state %s is:",state);
+    printf("\nThe Closure of state %s is:",state);
     for(int i=0;i<count;i++){
         printf("%s ",result[i]);
     }
