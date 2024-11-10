@@ -4,20 +4,21 @@ This repository contains a collection of programs for the **Compiler Lab** cours
 
 ## 📜 Table of Contents
 
-1. [Design and Implement a Lexical Analyzer (C Language)](#1)
-2. [Lexical Analyzer Using Lex Tool](#2-lexical-analyzer-using-lex-tool)
-3. [Count Lines, Words, and Characters (Lex Program)](#3-count-lines-words-and-characters-lex-program)
-4. [Convert Lowercase to Uppercase (Lex Program)](#4-convert-lowercase-to-uppercase-lex-program)
-5. [Count Vowels and Consonants (Lex Program)](#5-count-vowels-and-consonants-lex-program)
-6. [Arithmetic Expression Recognition (Yacc)](#6-arithmetic-expression-recognition-yacc)
-7. [Identifier Recognition (Yacc)](#7-identifier-recognition-yacc)
-8. [Calculator Using Lex and Yacc](#8-calculator-using-lex-and-yacc)
-9. [E-Closure of All States](#9-e-closure-of-all-states)
-10. [First and Follow of Given Grammar](#10-first-and-follow-of-given-grammar)
-11. [Shift-Reduce Parser Implementation](#11-shift-reduce-parser-implementation)
-12. [Code Optimization Simulation](#12-code-optimization-simulation)
-13. [Intermediate Code Generation](#13-intermediate-code-generation)
-14. [8086 Assembly Code Backend Implementation](#14-8086-assembly-code-backend-implementation)
+1. [Design and Implement a Lexical Analyzer (C Language)](./1)
+2. [Lexical Analyzer Using Lex Tool](./2/1)
+3. [Count Lines, Words, and Characters (Lex Program)](./2/2)
+4. [Convert Lowercase to Uppercase (Lex Program)](./2/3)
+5. [Count Vowels and Consonants (Lex Program)](./2/4)
+6. [Arithmetic Expression Recognition (Yacc)](./6/6)
+7. [Identifier Recognition (Yacc)](./7/7)
+8. [Calculator Using Lex and Yacc](./8/8)
+9. [E-Closure of All States](./9/9)
+10. [First and Follow of Given Grammar](./10/10)
+11. [Shift-Reduce Parser Implementation](./11/11)
+12. [Code Optimization Simulation](./12/12)
+13. [Intermediate Code Generation](./13/13)
+14. [8086 Assembly Code Backend Implementation](./14/14)
+
 
 ---
 
