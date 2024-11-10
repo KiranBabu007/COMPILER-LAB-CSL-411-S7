@@ -4,7 +4,7 @@ This repository contains a collection of programs for the **Compiler Lab** cours
 
 ## 📜 Table of Contents
 
-1. [Design and Implement a Lexical Analyzer (C Language)](#1-design-and-implement-a-lexical-analyzer-c-language)
+1. [Design and Implement a Lexical Analyzer (C Language)](#1)
 2. [Lexical Analyzer Using Lex Tool](#2-lexical-analyzer-using-lex-tool)
 3. [Count Lines, Words, and Characters (Lex Program)](#3-count-lines-words-and-characters-lex-program)
 4. [Convert Lowercase to Uppercase (Lex Program)](#4-convert-lowercase-to-uppercase-lex-program)
