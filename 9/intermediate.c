@@ -38,7 +38,5 @@ while(fscanf(f1,"%s %s %s %s",op,arg1,arg2,result)!=EOF){
 
 fclose(f1);
 fclose(f2);
-getchar();
-
 
 }
