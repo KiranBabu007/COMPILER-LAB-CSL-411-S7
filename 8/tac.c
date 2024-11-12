@@ -19,6 +19,7 @@ printf("\t\tINTERMEDIATE CODE GENERATION\n\n");
 printf("Enter the Expression: ");
 scanf("%s", expr);
 infix_to_postfix();
+printf("The postfix expression: %s\n", postfix);
 printf("The intermediate code:\n");
 generate_intermediate_code();
 return 0;
