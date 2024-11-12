@@ -4,7 +4,7 @@
 char op[2],arg1[5],arg2[5],result[5];
 void main(){
 FILE *f1,*f2;
-char f[100];
+
 f1=fopen("input.txt","r");
 f2=fopen("output.txt","w");
 
