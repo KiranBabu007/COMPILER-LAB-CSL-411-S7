@@ -3,11 +3,13 @@
 int vc=0,cc=0;
 %}
 
-
 %%
-"a"|"e"|"i"|"o"|"u"  vc++;
-[a-zA-Z]     cc++;
-\n\n       return 0;
+
+a|e|i|o|u  {vc++;}
+.           {cc++;}
+\n\n        return 0;
+
+
 %%
 
 int main(){
@@ -17,7 +19,5 @@ int main(){
 }
 
 int yywrap(){
-    
-    return 0;
+    return 1;
 }
-
