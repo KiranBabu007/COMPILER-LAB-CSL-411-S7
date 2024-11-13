@@ -69,11 +69,11 @@
 /* First part of user prologue.  */
 #line 1 "lex.y"
 
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 int yylex();
-void yyerror(char *s);
+void yyerror(char *msg);
 
 #line 79 "y.tab.c"
 
@@ -544,7 +544,7 @@ static const yytype_int8 yytranslate[] =
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int8 yyrline[] =
 {
-       0,    12,    12,    15
+       0,    14,    14,    15
 };
 #endif
 
@@ -1101,8 +1101,8 @@ yyreduce:
   switch (yyn)
     {
   case 2: /* stmt: exp NL  */
-#line 12 "lex.y"
-             { printf("Valid expression\n"); exit(0); }
+#line 14 "lex.y"
+              {printf("Coreeectttt"); exit(0);}
 #line 1107 "y.tab.c"
     break;
 
@@ -1300,18 +1300,15 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 18 "lex.y"
+#line 17 "lex.y"
 
 
-int main() {
-    printf("Enter expression: ");
-    if (yyparse() == 0) {
-        return 0;  // Successful parsing
-    } else {
-        return 1;  // Parsing error
-    }
+int main(){
+    yyparse();
+    return 0;
 }
 
-void yyerror(char *msg) {
-    printf("Invalid string\n");
+void yyerror(char *msg){
+    printf("error");
+   
 }
